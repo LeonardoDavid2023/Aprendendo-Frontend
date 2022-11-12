@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(218, 218, 218);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: #2b292c;
+    padding: 1em;
+    border-radius: 10px;
+    width: 50em;
+    height: 27em;
+    box-shadow: 5px 8px 5px #000;
+}
+
+img[alt=c6]{
+    width: 20%;
+    margin-left: 49%;
+}
+
+img[alt=Chip]
+{
+    width: 27%;
+    transform: rotate(0deg);
+    margin-top: 15%;
+}
+
+.footer img{
+    width: 18%;
+    margin-top: -05%;
+    margin-left: 75%;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+    font-size: 25px;
+    margin-left: 120%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header{
+    height: 70%;
+}
+
+.box-img{
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer{
+    height: 30%;
+}
+
+.footer p{
+    margin-left: 1em;
+}

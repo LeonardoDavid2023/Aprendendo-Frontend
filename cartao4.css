@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(230, 51, 51);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: #f08b08;
+    padding: 1em;
+    border-radius: 10px;
+    border-color: ghostwhite;
+    width: 50em;
+    height: 27em;
+    box-shadow: 5px 8px 5px rgb(248, 248, 248);
+}
+
+img[alt=Master]{
+    width: 20%;
+    margin-left: 50%;
+    margin-top: 40%;
+}
+
+img[alt=Chip]
+{
+    width: 27%;
+    transform: rotate(0deg);
+    margin-top: 15%;
+}
+
+.footer img{
+    width: 23%;
+    margin-top: 02%;
+    margin-left:05%;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    margin-left: -29%;
+    margin-top: 0%;
+    width: 1;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header{
+    height: 70%;
+}
+
+.box-img{
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer{
+    height: 30%;
+}
+
+.footer p{
+    margin-left: 1em;
+}
